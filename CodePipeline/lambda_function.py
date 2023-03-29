@@ -9,7 +9,7 @@ from requests_aws4auth import AWS4Auth
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-region = 'us-east-1'
+region = 'us-west-2'
 service = 'es'
 credentials = boto3.Session().get_credentials()
 
