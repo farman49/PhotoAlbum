@@ -5,10 +5,9 @@ phases:
       python: 3.9
   build:
     commands:
-      - echo "Copying 3libs to lib..."
-      - cp -r 3libs/. lib/
+      - echo "making libs."
       - echo "Zipping deployment package..."
-      - cd lib
+      - cd libs
       - zip -r9 ../deployment_package.zip .
       - cd ..
       - zip -g deployment_package.zip lambda_function.py
