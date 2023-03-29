@@ -1,11 +1,15 @@
 version: 0.2
 phases:
+  version: 0.2
+
+phases:
   install:
     runtime-versions:
       python: 3.9
     commands:
       - echo "Installing dependencies..."
       - pip install -r requirements.txt -t lib
+      - cp -r 3lib/. lib/
   build:
     commands:
       - echo "Zipping deployment package..."
