@@ -7,7 +7,7 @@ phases:
     commands:
       - echo "making libs."
       - echo "Zipping deployment package..."
-      - cd libs
+      - cd lib
       - zip -r9 ../deployment_package.zip .
       - cd ..
       - zip -g deployment_package.zip lambda_function.py
