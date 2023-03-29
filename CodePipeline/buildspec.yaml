@@ -9,7 +9,7 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - pip install -r requirements.txt -t lib
-      - cp -r 3lib/. lib/
+      - cp -r 3libs/. lib/
   build:
     commands:
       - echo "Zipping deployment package..."
