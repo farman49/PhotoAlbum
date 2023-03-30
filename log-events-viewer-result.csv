@@ -1,0 +1,144 @@
+timestamp,message
+1680218357422,"INIT_START Runtime Version: python:3.9.v18	Runtime Version ARN: arn:aws:lambda:us-west-2::runtime:edb5a058bfa782cb9cedc6d534ac8b8c193bc28e9a9879d9f5ebaaf619cd0fc0
+"
+1680218357816,"[DEBUG]	2023-03-30T23:19:17.816Z		Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+"
+1680218357818,"[DEBUG]	2023-03-30T23:19:17.818Z		Changing event name from before-call.apigateway to before-call.api-gateway
+"
+1680218357819,"[DEBUG]	2023-03-30T23:19:17.818Z		Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+"
+1680218357820,"[DEBUG]	2023-03-30T23:19:17.820Z		Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+"
+1680218357820,"[DEBUG]	2023-03-30T23:19:17.820Z		Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+"
+1680218357820,"[DEBUG]	2023-03-30T23:19:17.820Z		Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+"
+1680218357821,"[DEBUG]	2023-03-30T23:19:17.821Z		Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+"
+1680218357824,"[DEBUG]	2023-03-30T23:19:17.824Z		Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+"
+1680218357824,"[DEBUG]	2023-03-30T23:19:17.824Z		Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+"
+1680218357824,"[DEBUG]	2023-03-30T23:19:17.824Z		Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+"
+1680218357824,"[DEBUG]	2023-03-30T23:19:17.824Z		Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+"
+1680218357828,"[DEBUG]	2023-03-30T23:19:17.828Z		IMDS ENDPOINT: http://169.254.169.254/
+"
+1680218357830,"[DEBUG]	2023-03-30T23:19:17.830Z		Looking for credentials via: env
+"
+1680218357830,"[INFO]	2023-03-30T23:19:17.830Z		Found credentials in environment variables.
+"
+1680218357831,"[DEBUG]	2023-03-30T23:19:17.831Z		Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+"
+1680218357832,"[DEBUG]	2023-03-30T23:19:17.832Z		Changing event name from before-call.apigateway to before-call.api-gateway
+"
+1680218357833,"[DEBUG]	2023-03-30T23:19:17.833Z		Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+"
+1680218357835,"[DEBUG]	2023-03-30T23:19:17.834Z		Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+"
+1680218357835,"[DEBUG]	2023-03-30T23:19:17.835Z		Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+"
+1680218357835,"[DEBUG]	2023-03-30T23:19:17.835Z		Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+"
+1680218357839,"[DEBUG]	2023-03-30T23:19:17.836Z		Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+"
+1680218357839,"[DEBUG]	2023-03-30T23:19:17.839Z		Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+"
+1680218357839,"[DEBUG]	2023-03-30T23:19:17.839Z		Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+"
+1680218357839,"[DEBUG]	2023-03-30T23:19:17.839Z		Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+"
+1680218357839,"[DEBUG]	2023-03-30T23:19:17.839Z		Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+"
+1680218357841,"[DEBUG]	2023-03-30T23:19:17.841Z		IMDS ENDPOINT: http://169.254.169.254/
+"
+1680218357842,"[DEBUG]	2023-03-30T23:19:17.842Z		Looking for credentials via: env
+"
+1680218357842,"[INFO]	2023-03-30T23:19:17.842Z		Found credentials in environment variables.
+"
+1680218357845,"[DEBUG]	2023-03-30T23:19:17.844Z		Loading JSON file: /var/runtime/botocore/data/endpoints.json
+"
+1680218357862,"[DEBUG]	2023-03-30T23:19:17.859Z		Event choose-service-name: calling handler <function handle_service_name_alias at 0x7f4472143dc0>
+"
+1680218357924,"[DEBUG]	2023-03-30T23:19:17.923Z		Loading JSON file: /var/runtime/botocore/data/rekognition/2016-06-27/service-2.json
+"
+1680218357930,"[DEBUG]	2023-03-30T23:19:17.930Z		Event creating-client-class.rekognition: calling handler <function add_generate_presigned_url at 0x7f44721748b0>
+"
+1680218357931,"[DEBUG]	2023-03-30T23:19:17.931Z		Setting rekognition timeout as (60, 60)
+"
+1680218357932,"[DEBUG]	2023-03-30T23:19:17.932Z		Loading JSON file: /var/runtime/botocore/data/_retry.json
+"
+1680218357933,"[DEBUG]	2023-03-30T23:19:17.933Z		Registering retry handlers for service: rekognition
+"
+1680218357935,"START RequestId: 020b3624-bfd8-4d64-8bfd-fa1a640fa41b Version: $LATEST
+"
+1680218357936,"{'s3SchemaVersion': '1.0', 'configurationId': 'triggerEvent', 'bucket': {'name': 'imgorig', 'ownerIdentity': {'principalId': 'A9M993OPYC66T'}, 'arn': 'arn:aws:s3:::imgorig'}, 'object': {'key': 'NLP.png', 'size': 607262, 'eTag': '16c2280c2ecb6e77fd8e75b3cce853c2', 'versionId': 'MFpG2D4PRmqCJpGZKNJD25IrGDfHWZra', 'sequencer': '00642618F43BD782FA'}}
+"
+1680218357936,"imgorig
+"
+1680218357936,"NLP.png
+"
+1680218357936,"[DEBUG]	2023-03-30T23:19:17.936Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Event before-parameter-build.rekognition.DetectLabels: calling handler <function generate_idempotent_uuid at 0x7f44720ef040>
+"
+1680218357936,"[DEBUG]	2023-03-30T23:19:17.936Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Event before-call.rekognition.DetectLabels: calling handler <function inject_api_version_header_if_needed at 0x7f44720f38b0>
+"
+1680218357936,"[DEBUG]	2023-03-30T23:19:17.936Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Making request for OperationModel(name=DetectLabels) with params: {'url_path': '/', 'query_string': '', 'method': 'POST', 'headers': {'X-Amz-Target': 'RekognitionService.DetectLabels', 'Content-Type': 'application/x-amz-json-1.1', 'User-Agent': 'Boto3/1.20.32 Python/3.9.16 Linux/4.14.255-301-238.520.amzn2.x86_64 exec-env/AWS_Lambda_python3.9 Botocore/1.23.32'}, 'body': b'{""Image"": {""S3Object"": {""Bucket"": ""imgorig"", ""Name"": ""NLP.png""}}}', 'url': 'https://rekognition.us-west-2.amazonaws.com/', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x7f4471a152b0>, 'has_streaming_input': False, 'auth_type': None}}
+"
+1680218357937,"[DEBUG]	2023-03-30T23:19:17.937Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Event request-created.rekognition.DetectLabels: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x7f4471a15430>>
+"
+1680218357949,"[DEBUG]	2023-03-30T23:19:17.937Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Event choose-signer.rekognition.DetectLabels: calling handler <function set_operation_specific_signer at 0x7f44720eaee0>
+"
+1680218357950,"[DEBUG]	2023-03-30T23:19:17.950Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Calculating signature using v4 auth.
+"
+1680218357950,"[DEBUG]	2023-03-30T23:19:17.950Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	CanonicalRequest:
+POST
+/
+
+content-type:application/x-amz-json-1.1
+host:rekognition.us-west-2.amazonaws.com
+x-amz-date:20230330T231917Z
+x-amz-security-token:IQoJb3JpZ2luX2VjEKj//////////wEaCXVzLXdlc3QtMiJIMEYCIQCEfXxPM6fysTUePhbtnK+rL7SZs5w61+whjRjkzQZixgIhAJRssS8KiWzmGunWTH4p+oPGOQ5BIkLp5ZRZW473Cek/KuMCCID//////////wEQARoMNTQwMTgwOTU1NTg5IgyyO3DIQ96a9+Ql/+AqtwLM1qLO90bgNfEnyPenfjtMU+kiWlHEl5OjPKV+cW+xYI17h/2D9Kw9Owjy8C+lkDSUwPIX7I0SeXlaz4WS3E+98u1BM5aknvqjgmxq/9urcBWmqG2WW4MiH+i23BXrDI1B/hsgelV8MrRudpoxZkxb/NNNETwPTWxdUmY0u6UlJFywJal5zXY49uYig+G4RWQSWNQop3bG0vS9LKZC2UPhLEMnlospV8pggGVWvslgC0fdH2+X0Rrvl5tzdV2yG0lHiJZXV40OUURzry0xoFZJzFde3wcPTrnv3FlbmbI+5xC0RgWeFrekQ1/NBWajUy4LCF+foVpllwvcjERtqwkekc94bt8GeKbUCjypojXWqR9m50F46VdJ05AEf3/Q0yo29kg3wMCGBLMNDn8A6pXJSWbJS96WijD1sZihBjqdAZkEQbdUjllt5xj1WhJXryy37UZpYTjGUsLXfeIY+4ds930+d8P+Bkh9GbDrp6rCTJIfP8U75bAh/Quf6joBxa/IcKYq1rDMDNTOORt231dmwsvJLcgPBekRceVg35mkIGn4g3OirXH6pNHuUvkGi2Y3jt34IIF04NrpFBPEatfIYsAaeXP6uBHs3bzTaGSy40u2ZnbQ2TFSPmaGwWY=
+x-amz-target:RekognitionService.DetectLabels
+
+content-type;host;x-amz-date;x-amz-security-token;x-amz-target
+62b8015638acfa8aa7302bb30e6ad01ac304695c88ad125e3ce779a839370830
+"
+1680218357950,"[DEBUG]	2023-03-30T23:19:17.950Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	StringToSign:
+AWS4-HMAC-SHA256
+20230330T231917Z
+20230330/us-west-2/rekognition/aws4_request
+a0e12581b74f2ce210431b353ce1d7d3809c2887a5c3484dbf3b4cdd61fafdd0
+"
+1680218357950,"[DEBUG]	2023-03-30T23:19:17.950Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Signature:
+28a45734feecca4f5f196f61add5daeffd6738309433196752db83b17269f0e3
+"
+1680218357950,"[DEBUG]	2023-03-30T23:19:17.950Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://rekognition.us-west-2.amazonaws.com/, headers={'X-Amz-Target': b'RekognitionService.DetectLabels', 'Content-Type': b'application/x-amz-json-1.1', 'User-Agent': b'Boto3/1.20.32 Python/3.9.16 Linux/4.14.255-301-238.520.amzn2.x86_64 exec-env/AWS_Lambda_python3.9 Botocore/1.23.32', 'X-Amz-Date': b'20230330T231917Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjEKj//////////wEaCXVzLXdlc3QtMiJIMEYCIQCEfXxPM6fysTUePhbtnK+rL7SZs5w61+whjRjkzQZixgIhAJRssS8KiWzmGunWTH4p+oPGOQ5BIkLp5ZRZW473Cek/KuMCCID//////////wEQARoMNTQwMTgwOTU1NTg5IgyyO3DIQ96a9+Ql/+AqtwLM1qLO90bgNfEnyPenfjtMU+kiWlHEl5OjPKV+cW+xYI17h/2D9Kw9Owjy8C+lkDSUwPIX7I0SeXlaz4WS3E+98u1BM5aknvqjgmxq/9urcBWmqG2WW4MiH+i23BXrDI1B/hsgelV8MrRudpoxZkxb/NNNETwPTWxdUmY0u6UlJFywJal5zXY49uYig+G4RWQSWNQop3bG0vS9LKZC2UPhLEMnlospV8pggGVWvslgC0fdH2+X0Rrvl5tzdV2yG0lHiJZXV40OUURzry0xoFZJzFde3wcPTrnv3FlbmbI+5xC0RgWeFrekQ1/NBWajUy4LCF+foVpllwvcjERtqwkekc94bt8GeKbUCjypojXWqR9m50F46VdJ05AEf3/Q0yo29kg3wMCGBLMNDn8A6pXJSWbJS96WijD1sZihBjqdAZkEQbdUjllt5xj1WhJXryy37UZpYTjGUsLXfeIY+4ds930+d8P+Bkh9GbDrp6rCTJIfP8U75bAh/Quf6joBxa/IcKYq1rDMDNTOORt231dmwsvJLcgPBekRceVg35mkIGn4g3OirXH6pNHuUvkGi2Y3jt34IIF04NrpFBPEatfIYsAaeXP6uBHs3bzTaGSy40u2ZnbQ2TFSPmaGwWY=', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIAX3RKLIHCYSLU726U/20230330/us-west-2/rekognition/aws4_request, SignedHeaders=content-type;host;x-amz-date;x-amz-security-token;x-amz-target, Signature=28a45734feecca4f5f196f61add5daeffd6738309433196752db83b17269f0e3', 'Content-Length': '65'}>
+"
+1680218357951,"[DEBUG]	2023-03-30T23:19:17.951Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Certificate path: /var/task/certifi/cacert.pem
+"
+1680218357951,"[DEBUG]	2023-03-30T23:19:17.951Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Starting new HTTPS connection (1): rekognition.us-west-2.amazonaws.com:443
+"
+1680218358589,"[DEBUG]	2023-03-30T23:19:18.589Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	https://rekognition.us-west-2.amazonaws.com:443 ""POST / HTTP/1.1"" 200 806
+"
+1680218358590,"[DEBUG]	2023-03-30T23:19:18.590Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Response headers: {'x-amzn-RequestId': 'd59775cd-b909-41d7-b264-02691c541bcb', 'Content-Type': 'application/x-amz-json-1.1', 'Content-Length': '806', 'Date': 'Thu, 30 Mar 2023 23:19:18 GMT'}
+"
+1680218358590,"[DEBUG]	2023-03-30T23:19:18.590Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Response body:
+b'{""LabelModelVersion"":""3.0"",""Labels"":[{""Aliases"":[],""Categories"":[{""Name"":""Text and Documents""}],""Confidence"":94.01132202148438,""Instances"":[],""Name"":""Diagram"",""Parents"":[]},{""Aliases"":[],""Categories"":[{""Name"":""Text and Documents""}],""Confidence"":93.3628158569336,""Instances"":[],""Name"":""UML Diagram"",""Parents"":[{""Name"":""Diagram""}]},{""Aliases"":[],""Categories"":[{""Name"":""Text and Documents""}],""Confidence"":55.04998016357422,""Instances"":[],""Name"":""Chart"",""Parents"":[]},{""Aliases"":[],""Categories"":[{""Name"":""Buildings and Architecture""}],""Confidence"":55.04998016357422,""Instances"":[],""Name"":""Plan"",""Parents"":[{""Name"":""Chart""},{""Name"":""Diagram""},{""Name"":""Plot""}]},{""Aliases"":[],""Categories"":[{""Name"":""Text and Documents""}],""Confidence"":55.04998016357422,""Instances"":[],""Name"":""Plot"",""Parents"":[{""Name"":""Chart""}]}]}'
+"
+1680218358591,"[DEBUG]	2023-03-30T23:19:18.591Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Event needs-retry.rekognition.DetectLabels: calling handler <botocore.retryhandler.RetryHandler object at 0x7f4472070580>
+"
+1680218358591,"[DEBUG]	2023-03-30T23:19:18.591Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	No retry needed.
+"
+1680218358591,"['Diagram', 'UML Diagram', 'Chart', 'Plan', 'Plot']
+"
+1680218358629,"[DEBUG]	2023-03-30T23:19:18.593Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Starting new HTTPS connection (1): search-photo-search-d7qcrc4oxwpstfmjnbvcbhvgcq.us-west-2.es.amazonaws.com:443
+"
+1680218359423,"[DEBUG]	2023-03-30T23:19:19.423Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	https://search-photo-search-d7qcrc4oxwpstfmjnbvcbhvgcq.us-west-2.es.amazonaws.com:443 ""POST /photo-search/_doc HTTP/1.1"" 201 179
+"
+1680218359424,"[DEBUG]	2023-03-30T23:19:19.424Z	020b3624-bfd8-4d64-8bfd-fa1a640fa41b	ES response: {""_index"":""photo-search"",""_type"":""_doc"",""_id"":""xlbRNIcBW-aQGtCahc0I"",""_version"":1,""result"":""created"",""_shards"":{""total"":2,""successful"":1,""failed"":0},""_seq_no"":0,""_primary_term"":1}
+"
+1680218359430,"END RequestId: 020b3624-bfd8-4d64-8bfd-fa1a640fa41b
+"
+1680218359430,"REPORT RequestId: 020b3624-bfd8-4d64-8bfd-fa1a640fa41b	Duration: 1494.68 ms	Billed Duration: 1495 ms	Memory Size: 128 MB	Max Memory Used: 70 MB	Init Duration: 512.46 ms	
+"
