@@ -1,15 +1,13 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo "Installing dependencies..."
-      - npm install
   build:
     commands:
-      - echo "Building Lambda functions..."
-      - cd lambdas
-      - npm run build
+      - echo "Deploying Lambda functions to AWS..."
+      - aws lambda create-function --function-name LF1 --zip-file fileb://lambdas/LF1.zip --handler index.handler --runtime nodejs12.x --role <arn-of-lambdafunction1-role>
+      - aws lambda create-function --function-name LF2 --zip-file fileb://lambdas/LF2.zip --handler index.handler --runtime nodejs12.x --role <arn-of-lambdafunction2-role>
+
+
   
 
   
