@@ -1,15 +1,8 @@
 version: 0.2
 
 phases:
-  build:
-    commands:
-      - echo "Building Lambda functions..."
-      - cd lambdas
-      - zip -r9 LF1.zip lambda_function.py
-      - zip -r9 LF2.zip search-photos.py
-      - cd ..
   deploy:
     commands:
       - echo "Deploying Lambda functions to AWS..."
-      - aws lambda create-function --function-name func1 --zip-file fileb://lambdas/LF1.zip --handler lambda_function.lambda_handler --runtime python3.8 --role arn:aws:iam::540180955589:role/lambdafunction1
-      - aws lambda create-function --function-name func2 --zip-file fileb://lambdas/LF2.zip --handler search-photos.lambda_handler --runtime python3.8 --role arn:aws:iam::540180955589:role/lambdafunction2
+      - aws lambda create-function --function-name func1 --zip-file fileb://lambdas/LF1.zip --handler lambda_function.lambda_handler --runtime python3.9 --role arn:aws:iam::540180955589:role/lambdafunction1
+      - aws lambda create-function --function-name func2 --zip-file fileb://lambdas/LF2.zip --handler search-photos.lambda_handler --runtime python3.9 --role arn:aws:iam::540180955589:role/lambdafunction2
